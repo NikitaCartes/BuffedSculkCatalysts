@@ -31,6 +31,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-easyauth-
 
+      - name: File permission
+        run: chmod +x gradlew
+
       - name: Build
         run: ./gradlew build
 
