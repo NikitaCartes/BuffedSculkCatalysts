@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.nikitacartes.buffedsculkcatalysts.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "SculkCatalystBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
