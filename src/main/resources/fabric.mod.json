@@ -16,11 +16,6 @@
   "license": "CC0-1.0",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "xyz.nikitacartes.buffedsculkcatalysts.BuffedSculkCatalysts"
-    ]
-  },
   "mixins": [
     "buffedsculkcatalysts.mixins.json"
   ],
